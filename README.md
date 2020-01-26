@@ -26,16 +26,30 @@ clone https://github.com/HamiltonMassango/LIB-JS
 Windows, OS X & Linux:
 - Na pagina HTML add a lib dessa forma : 
 ```html
-<script src="dom.js"><script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pain</title>
+    <style>
+    .bt{
+        border: 1px solid red;
+    }
+    </style>
+</head>
+<body>
+    <button class="bt" data-js="bt">Click</button>
+    <button class="bt" data-js="bt">Click 2</button>
+    <script src="./dom.js"></script>
+    <script>
+        var bt = new dom('[data-js="bt"]');
+        bt.on('click', () => {
+            alert('Hello World ! ');
+        }); // Add eventento no botão       
+    </script>
+</body>
+</html>
 ```
-- Ex : Pegando um elemento ! 
-```js
-(function (DOM){
-    $("#click").get().addEventListener('click', () => alert('Hello World !'))
-})(window.DOM);
-```
-
-
 
 ## Meta
 
