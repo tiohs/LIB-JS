@@ -1,0 +1,23 @@
+{
+  "name": "lib-js-uniplace",
+  "version": "1.0.0",
+  "description": "Lib para trabalhar no front-end !",
+  "main": "pein.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HamiltonMassango/LIB-JS.git"
+  },
+  "keywords": [
+    "Lib",
+    "front-end"
+  ],
+  "author": "Hamilton Silva <hamiltonsilva55@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HamiltonMassango/LIB-JS/issues"
+  },
+  "homepage": "https://github.com/HamiltonMassango/LIB-JS#readme"
+}

@@ -66,4 +66,5 @@ class DOM {
   }
 }
 
+module.exports = new DOM;
 window.dom = DOM;
